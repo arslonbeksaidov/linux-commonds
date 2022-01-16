@@ -1,0 +1,6 @@
+// wifi information
+sudo cat /etc/NetworkManager/system-connections/<ssid>
+-----------------------------------------------------
+// current connected wifi password and ssid
+nmcli device wifi show-password
+//
